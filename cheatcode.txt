@@ -1,0 +1,39 @@
+
+---
+to enable the CSF 
+ #csf -e
+
+To disable the CSF
+ #csf -x
+
+To start the firewall rule
+ #csf -s	
+
+To flush/stop firwall rules
+ #csf -f
+
+To restart the CSF
+ #csf -r
+
+To Allow the IP address
+ #csf -a 12.21.22.2
+
+To check the IP is blocked or allowed on the firewall
+ #csf -g 10.1.12.2
+
+To block/deny the IP address on the firewal
+ #csf -d 12.3.3.2
+
+For Temporary Deny/block add t on the option
+ #csf -td 63.23.54.6
+
+To check the current blocked IP address
+ #csf -t
+
+To remove & unblock all the entries
+ #csf -df
+
+
+Deny list will be on /etc/csf/csf.deny
+Allow list will be on /etc/csf/csf.allow
+Temp list will be on /var/lib/csf/csf.tempban
