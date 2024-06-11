@@ -18,11 +18,12 @@ If you want your application to be accessible only from specific regions, you ca
 
 The country code is a standard option used in the configuration file. All port and country blocks can be managed via the `csf.conf` file. In this file, you can specify:
 
+```
 - Allow incoming TCP ports
 - Allow incoming IPv6 TCP ports
 - Allow outgoing TCP ports
 - Allow outgoing IPv6 TCP ports
-
+```
 For example, to block a specific country, you can set:
 
 ```
