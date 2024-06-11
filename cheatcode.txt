@@ -1,4 +1,3 @@
-
 ---
 to enable the CSF 
  #csf -e
@@ -37,3 +36,4 @@ To remove & unblock all the entries
 Deny list will be on /etc/csf/csf.deny
 Allow list will be on /etc/csf/csf.allow
 Temp list will be on /var/lib/csf/csf.tempban
+---
